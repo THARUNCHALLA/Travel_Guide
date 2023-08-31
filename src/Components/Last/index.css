@@ -1,0 +1,42 @@
+li {
+  list-style-type: none;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 4px 4px #bfbfbf;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+@media (min-width: 700px) {
+  li {
+    list-style-type: none;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 4px 4px #bfbfbf;
+    margin: 30px;
+  }
+}
+.image {
+  height: 160px;
+  width: 300px;
+}
+@media (min-width: 700px) {
+  .image {
+    height: 160px;
+    width: 400px;
+  }
+}
+.Heading {
+  font-family: 'roboto';
+  color: black;
+  font-size: 14px;
+  margin: 10px;
+}
+.para {
+  font-family: 'roboto';
+  color: #475569;
+  font-size: 14px;
+  margin: 10px;
+}
